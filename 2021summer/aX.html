@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/First.css">
+	<link rel="stylesheet" href="./images/reset.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+
+	<title>choweb</title>
+</head>
+<body>
+	<div class = "header">
+		<div class = "inner leftheader">
+			<a href="#" class=log><img src = "../img/logo.svg"/></a>
+			<ul>
+				<li><a href="#">Personal</a></li>
+				<li><a href="#">Open Source</a></li>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">Explore</a></li>
+			</ul>
+		
+			<button type="button" class="btnsignup">sign up</button>
+			<button type="button" class="btnsignin">sign in</button>
+			<form>
+				<input type="text" placeholder="Search GitHub">
+			</form>
+			<ul>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Support</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+
+
+//////
+<style type="text/css">
+	.header{
+   height: 70px;
+   border-bottom: 1px solid black;
+}
+.inner{
+   max-width:980px ;
+   margin:0px auto;
+   display: flex ;
+   text-align: left; 
+   box-sizing: border-box;
+   position: relative;
+}
+ul{
+   display: flex;   
+}
+.log{
+   align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.rightheader{
+   align-items: right ;
+   
+}
+button{
+   order: 3;
+}
+form{
+   order: 2;
+}
+</style>
